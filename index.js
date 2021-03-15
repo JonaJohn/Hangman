@@ -12,7 +12,7 @@ var BunchOfWords = [
 var ABC = "abcdefghijklmnopqrstuvwxyzäöüß".split('')
 
 
-console.log(BunchOfWords)
+console.log(BunchOfWords)//asdasd
 let answer = '';
 let WordStatus = null;
 let guessedLetter = null;
