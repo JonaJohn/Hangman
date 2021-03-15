@@ -1,0 +1,44 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    width: 100%;
+    height: 100vh;
+    color: #fff;
+    background: linear-gradient(-45deg, #EE7752, #E73C7E)
+
+}
+
+h1{
+    text-align: center;
+}
+
+input{
+    color: black;
+    text-align: center;
+}
+div{
+    text-align: center;
+    margin-top: 30px;
+}
+
+#guessingWord{
+    font-size: 40px;
+}
+
+.SelectBtn{
+    
+    width: 15%;
+    background: #d9d9d9;
+    color: #555;
+    float: left;
+    text-align: center;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+    border-radius: 0;
+}
+
