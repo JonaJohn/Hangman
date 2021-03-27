@@ -65,7 +65,9 @@ function VergleichenErsetzen(a){
 }
 
 function UpdateHangmanPicture(){
-    document.getElementById("HangmanPicture").src = + mistakes + ".jpg";
+    let ImagePath = "images\\" + mistakes + ".jpg";
+    console.log(ImagePath);
+    document.getElementById("HangmanPicture").src = ImagePath;
 }
 
 function Select()//Passier onclick // soll Buchstaben aufdecken falls richtig
