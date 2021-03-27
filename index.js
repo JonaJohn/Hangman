@@ -10,7 +10,7 @@ var BunchOfWords = [
     "Schule"
 ]
 var ABC = "abcdefghijklmnopqrstuvwxyzäöüß".split('')
-
+//RepositoryVersuche
 
 console.log(BunchOfWords)//asdasd
 let answer = '';
